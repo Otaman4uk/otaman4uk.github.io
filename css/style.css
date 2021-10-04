@@ -1,7 +1,19 @@
-figure {
-  	width: 50%; /* Ширина области */
-    height: 200px; /* Высота области */
-    margin: 200; /* Обнуляем отступы */
-    overflow: hidden; /* Прячем всё за пределами */
-    min-width: 100px; /* Минимальная ширина */
+p {
+    display: flex;
+    position: absolute; right: 15px; top: 0px
+    align-items: center;
+        
+}
+a {
+    display:flex;
+    margin:10px;
+}
+img {
+    width:300px; 
+    height:150px; 
+    padding:250px; 
+  } 
+.center-menu {
+    left: 1500px;
+    top: 1500px;
 }
