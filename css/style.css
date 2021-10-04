@@ -1,6 +1,7 @@
-.top-menu-img{
-  width: 100%;
-  height: 100%;
-  margin: 0;
-  padding: 0;
+figure {
+  	width: 50%; /* Ширина области */
+    height: 200px; /* Высота области */
+    margin: 200; /* Обнуляем отступы */
+    overflow: hidden; /* Прячем всё за пределами */
+    min-width: 100px; /* Минимальная ширина */
 }
